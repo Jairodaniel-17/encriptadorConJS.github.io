@@ -19,6 +19,7 @@ function encriptarTexto() {
 
     document.getElementById("encryptedText").value = encryptedText;
 }
+
 function desencriptarTexto() {
     var encryptedText = document.getElementById("plaintext").value;
     var shift = parseInt(document.getElementById("shift").value);
